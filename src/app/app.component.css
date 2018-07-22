@@ -1,0 +1,289 @@
+/* You can add global styles to this file, and also import other style files */
+/*.container{
+	color : white;
+}
+*/
+.logo-header{
+
+  margin: 0 5%  ;
+}
+
+li{
+  margin-right: 3% ;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.container {
+	
+
+ position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: white;
+    overflow-x: auto ;
+
+	
+}
+
+.header{
+	background-color: red ;
+}
+
+.table-section{
+	background-color:lavender;
+	padding  : 6px ;
+	
+}
+.table-section-dis{
+	
+	background-color:lavenderblush;
+	padding  : 6px ;
+}
+
+.row{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section{
+	padding: 5px ;
+}
+.stat-status{
+	color : red;
+	
+}
+.progress-bar{
+	background-color: red ;
+}
+
+.main-img{
+	width:257px;
+	/*@media only screen and (max-width : 500px){
+		.main-img{
+			width:157px;    
+		}
+	}*/
+}
+.middle-img{
+  	width:247px;
+  }
+  .self-img{
+  	width:67px;
+  }
+
+@media screen and (max-width : 519px){
+  .welcome-layout li { 
+    margin-right: 20px;
+  }
+  .logo-header {
+    margin: 0 1%;
+  }
+}
+@media screen and (max-width : 514px){
+  .welcome-layout li { 
+    margin-right: 0.71%;
+  }
+  .logo-header {
+    margin: 0 1%;
+  }
+ 
+}
+@media screen and (max-width : 442px){
+  .welcome-layout li { 
+    margin-right: 0.2%;
+  }
+  .logo-header {
+    margin: 0 1%;
+  }
+}
+@media screen and (max-width : 419px){
+  .welcome-layout li { 
+    margin-right: 0.1%;
+  }
+  .logo-header {
+    margin: 0 1%;
+  }
+}
+@media screen and (max-width : 415px){
+  .welcome-layout li { 
+    margin-right: 0;
+  }
+  .logo-header {
+    margin: 0 3.2%;
+  }
+  h4{
+    font-size: 1rem;
+  }
+   a{
+    font-size: 80% ;
+  }
+}
+@media screen and (max-width : 349px){
+  .welcome-layout li {
+    margin-right: 1%;
+  }
+  .logo-header {
+    margin: 0 0%;
+  }
+  h4{
+    font-size: 0.8rem;
+  }
+   a{
+    font-size: 80% ;
+  }
+}
+@media screen and (max-width : 301px){
+  .welcome-layout li {
+    margin-right: 1%;
+  }
+  .logo-header {
+    margin: 0 0%;
+  }
+  h4{
+    font-size: 0.7rem;
+  }
+   a{
+    font-size: 80% ;
+  }
+}
+@media screen and (max-width : 280px){
+  .welcome-layout li {
+    margin-right: 1%;
+  }
+  .logo-header {
+    margin: 0 0%;
+  }
+  h4{
+   font-size: 0.56rem;
+  }
+  a{
+    font-size: 65% ;
+  }
+}
+@media screen and (max-width : 225px){
+  .welcome-layout li {
+    margin-right: 1%;
+  }
+  .logo-header {
+    margin: 0 0%;
+  }
+  h4{
+    font-size: 0.5rem;
+  }
+  a{
+    font-size: 60% ;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .main-img{
+    display: none;
+  }
+  .middle-img{
+  	display: none;
+  }
+  .story-telling{
+  	color:red;
+  
+  }
+}
+@media screen and (max-width: 990px) {
+ .main-img{
+    width:157px;
+  }
+  .middle-img{
+  	width:147px;
+  }
+  .self-img{
+  	width:50px;
+  }
+  .col{
+  	max-width:60%;
+  }
+}
+
+
+:host /deep/ ng2-smart-table-title > div { color: red; }
+
+
+
+
+/* main container */
+
+
+.welcome-layout{
+  list-style: none ;
+  
+  background-color: black ;
+   position: fixed;
+    z-index: 1;
+    width: 100%;
+    top : 0 ;
+}
+
+.welcome-layout li,h4 , .menu{
+  display : inline-block ;
+}
+
+.welcome-layout-child{
+  margin : 5% 2%;
+}
+
+
+a{
+  color: white ;
+}
+.menu{
+  margin-left : 3%;
+}
+
+.menu-bar-line{
+ 
+     background-color: white;
+    height: 2px;
+    width: 25px;
+   
+    margin-bottom: 4px;
+}
+
+h4{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* titles */
+.tiles-container{
+  margin : 100px ;
+}
+.tiles{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black ;
+    width: 200px;
+}
+.tiles-container .tiles{
+  display : inline-block;
+}
+.selected{
+  a{
+    color : green;
+  }
+}
+
+
+
+/*
+
+npm install -g firebase-tools
+*/

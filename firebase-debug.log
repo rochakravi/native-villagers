@@ -1,0 +1,41 @@
+[debug] [2018-07-22T09:03:02.890Z] ----------------------------------------------------------------------
+[debug] [2018-07-22T09:03:02.895Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-22T09:03:02.896Z] CLI Version:   3.19.3
+[debug] [2018-07-22T09:03:02.896Z] Platform:      win32
+[debug] [2018-07-22T09:03:02.896Z] Node Version:  v8.9.3
+[debug] [2018-07-22T09:03:02.896Z] Time:          Sun Jul 22 2018 14:33:02 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:02.896Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-22T09:03:02.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-22T09:03:02.915Z] > authorizing via signed-in user
+[debug] [2018-07-22T09:03:02.917Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-22T09:03:02.918Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/SfZbTXcZG3y_VHmE3mf4O_ojlHRS74inegaMyiUwmmLMhrgAL3-StJr8JLxdjits',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jul 22 2018 14:33:02 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:03.466Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-22T09:03:03.507Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/native-villagers  
+  
+ Sun Jul 22 2018 14:33:03 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:05.198Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-22T09:03:05.204Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/native-villagers/tokens  
+  
+ Sun Jul 22 2018 14:33:05 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:06.975Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-22T09:03:06.978Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/native-villagers  
+  
+ Sun Jul 22 2018 14:33:06 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:09.119Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\poc\native-villagers'...
+[info] 
+[debug] [2018-07-22T09:03:09.141Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/251418961105/clients/_:getWebAppConfig  
+  
+ Sun Jul 22 2018 14:33:09 GMT+0530 (India Standard Time)
+[debug] [2018-07-22T09:03:10.372Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

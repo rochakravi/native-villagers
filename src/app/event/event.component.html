@@ -1,0 +1,88 @@
+<div class="container">
+    <div class="header">
+      <marquee> “Self-care is how you take your power back.” </marquee>
+     
+    </div>
+    	
+    
+
+    <div>
+    	<table id="customers">
+  			<tr>
+   				<td>
+   					<div class="events">
+    					<h6>Party</h6>
+    					<img src="../assets/1st.jpg" >
+    					<i>Birthday, Marriage, anniversary</i>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="events" >
+    					<h6>Gallery</h6>
+    					<img src="../assets/1st.jpg" >
+    					<i>List of cateres and banquets</i>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="events">
+    					<h6>Varients</h6>
+    					<img src="../assets/1st.jpg" >
+    					<i>Varients and packages</i>
+    				</div>
+    			</td>
+  			</tr>
+ 
+		</table>
+
+    </div>
+
+    <div>
+    	<ul>
+    		<li>We offer facilities and services to all kind of events</li>
+    		<li>We offer best Quality foods with hiegyne</li>
+    		<li>We offer luxury, traditional, natural decoration</li>
+    	</ul>
+    </div>   
+   
+
+    <div>
+        <ul>
+            <li *ngFor="let x of allDoctors">
+               <div class="patRow pat-gird"><span class="patId grid-item"> Doctor Name : <strong>{{x.doctorName}}</strong></span>
+                    <span class="patName grid-item"> Specilist :  {{x.doctorSpecilist}}</span>
+                      <span class="patName grid-item"> Degree :  {{x.doctorDegree}}</span>
+                    <!-- <span class="grid-item">Doctor Details <i class="fa fa-caret-down" aria-hidden="true" 
+                        (click)="showDocDetails(x)"></i></span> -->
+                </div>
+               <!-- <div class="docRow container-grid" *ngIf="DocDetails">
+                    <span class="grid-item"> ID : {{x.doctor.doctorID}}</span>
+                    <span class="grid-item"> Name : {{x.doctor.doctorName}}</span>
+                    <span class="grid-item"> Specilist : {{x.doctor.doctorSpecilist}}</span>
+                    <span class="grid-item"> Degree : {{x.doctor.doctorDegree}}</span>
+                </div> -->
+            </li>
+             
+        </ul>
+       
+    </div>
+    <!--<div>
+        <ul>
+            <li *ngFor="let x of patientList">
+               <div class="patRow pat-gird"><span class="patId grid-item"> Patient ID : <strong>{{x.patientId}}</strong></span>
+                    <span class="patName grid-item"> Patient Name :  {{x.patientName}}</span>
+                    <span class="grid-item">Doctor Details <i class="fa fa-caret-down" aria-hidden="true" 
+                        (click)="showDocDetails(x)"></i></span>
+                </div>
+               <div class="docRow container-grid" *ngIf="DocDetails">
+                    <span class="grid-item"> ID : {{x.doctor.doctorID}}</span>
+                    <span class="grid-item"> Name : {{x.doctor.doctorName}}</span>
+                    <span class="grid-item"> Specilist : {{x.doctor.doctorSpecilist}}</span>
+                    <span class="grid-item"> Degree : {{x.doctor.doctorDegree}}</span>
+                </div>
+            </li>
+             
+        </ul>
+       
+    </div> -->
+</div>
+

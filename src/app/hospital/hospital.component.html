@@ -1,0 +1,29 @@
+Patient Name <input type="text" [(ngModel)]="pName">
+
+<button (click)="choseDoc()">Choose Doctor</button> 
+
+
+<div *ngIf="showDoc">
+        <ul class='doc-tiles'>
+            <li *ngFor="let x of allDoctors">
+
+               <div class="patRow pat-gird" (click)="selectedDoc(x)">              		       
+               		
+               		<span class="patId grid-item"> Doctor Name : <strong>{{x.doctorName}}</strong></span>
+                    <span class="patName grid-item"> Specilist :  {{x.doctorSpecilist}}</span>
+                    <span class="patName grid-item"> Degree :  {{x.doctorDegree}}</span>
+                    <!-- <span class="grid-item">Doctor Details <i class="fa fa-caret-down" aria-hidden="true" 
+                        (click)="showDocDetails(x)"></i></span> -->
+                </div>
+               
+            </li>
+             
+        </ul>
+       
+</div>
+<div *ngIf="selectedDoct">
+Selected Doctor : <strong>{{doctorName}}</strong>
+<button *ngIf="apptment" (click)="appointment()">Appointment</button>
+<div *ngIf="apptmentID" >Patient ID : {{PatId}}</div>
+</div>
+

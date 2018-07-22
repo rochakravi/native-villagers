@@ -1,0 +1,49 @@
+#customers{
+	width : 100%;
+	background-color: pink ;
+}
+
+  
+.events{
+  
+  padding: 2%;
+  border: 1px solid grey;
+  display : inline-block;
+  text-align: center;
+  width : 100%;
+
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+.patRow{
+	padding : 5px 0;
+	
+}
+
+.docRow{
+	padding : 5px ;
+	
+}
+.patId{
+	padding: 0 10px;
+    border: 1px solid lightblue;
+}
+.patName{
+	color: chocolate;
+}
+
+.container-grid{
+	 display: grid;
+	   grid-template-columns: 15% 30% 27% 27% ;
+	   color: black;
+	   text-align: center;
+}
+
+.pat-gird{
+	 display: grid;
+	 grid-template-columns: 20% 40% 27% ;
+}

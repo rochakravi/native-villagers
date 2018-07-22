@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="header">
+    <marquee> “Self-care is how you take your power back.” </marquee>
+  </div>
+  <div class="container-fluid color-dark">
+    <div class="col">
+      <h3>Entry Details</h3>
+      <form novalidate [formGroup]="myform" (ngSubmit)="checkValue()">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password"
+          class="form-control"
+          formControlName="password">
+        </div>
+        <div class="form-group">
+          <label>Language</label>
+          <select class="form-control"
+            formControlName="language">
+            <option value="">Please select a language</option>
+            <option *ngFor="let doc of doctorList"
+              [value]="doc.doctorID">{{doc.doctorID}}-{{doc.doctorName}}-{{doc.doctorSpecilist}}-{{doc.doctorDegree}}
+            </option>
+          </select>
+        </div>   
+        <div>
+          <button (click)="SavePatient()">Submit</button>
+        </div>  
+    </form>
+  </div>
+  <div class="col">
+    <div class="display-board">
+      Messaages and information will come here
+    <pre> {{myform.value |json}}</pre>
+    <app-display-board [childMessage]="parentMessage|json"></app-display-board>
+  </div>
+</div>
+<!--<div class="new-entry-form" style="">
+<form novalidate
+  [formGroup]="myform">
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email"
+    class="form-control"
+    formControlName="email">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password"
+    class="form-control"
+    formControlName="password">
+  </div>
+  <div class="form-group">
+    <label>Language</label>
+    <select class="form-control"
+      formControlName="language">
+      <option value="">Please select a language</option>
+      <option *ngFor="let lang of langs"
+        [value]="lang">{{lang}}
+      </option>
+    </select>
+  </div>
+<pre>{{myform.value | json}}</pre>
+</form>
+</div>
+<div class="display-board">
+Messaages and information will come here
+<pre> {{myform.value |json}}</pre>
+<app-display-board></app-display-board>
+</div>-->
+</div>

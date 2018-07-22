@@ -1,0 +1,26 @@
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+.new-entry-form{
+
+	position: relative;
+    float: left;
+    border-right: 1px dotted black;
+    padding: 0 0 1px 10px;
+}
+.new-entry{
+	margin :2% 0;
+}
+
+.display-board{
+    float: left;
+    padding : 1%;
+}
+
+
+
+.container-fluid{
+	display: grid;
+	grid-template-columns: auto  auto;
+}
