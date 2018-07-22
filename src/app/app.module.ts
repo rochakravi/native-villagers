@@ -8,7 +8,7 @@ import{Routes, RouterModule} from '@angular/router' ;
 
 
 
-import { Ng2SmartTableModule } from 'ng2-smart-table';
+//import { Ng2SmartTableModule } from 'ng2-smart-table';
 //import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { AppComponent } from './app.component';
