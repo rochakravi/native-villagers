@@ -49,7 +49,7 @@ import { HospitalComponent } from './hospital/hospital.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(routes),
-     Ng2SmartTableModule,
+ 
    
   ],
   providers: [ApiService],
