@@ -16,11 +16,11 @@ export class ApiService {
   constructor(private httpClient : HttpClient) { }
 
   getAllDoctors(){
-    return this.httpClient.get('https://native-villagers.herokuapp.com/doctors') ;
+    return this.httpClient.get('https://native-villagers-service.herokuapp.com/doctors') ;
   }
-
+  //https://native-villagers-service.herokuapp.com/patients
   addPatient(data){
-    return this.httpClient.post('https://native-villagers.herokuapp.com/patient',data) ;
+    return this.httpClient.post('https://native-villagers-service.herokuapp.com/patient',data) ;
   }
 
  /* getPatients(){
