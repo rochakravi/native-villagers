@@ -9,93 +9,93 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 export class DiaryComponent implements OnInit {
     
     //3. Constructor injected with the Service Dependency
-    settings = {
-        hideSubHeader : false ,
-        actions : false , 
+  //   settings = {
+  //       hideSubHeader : false ,
+  //       actions : false , 
         
-    columns: {
-      month: {
-        title: 'Month'
+  //   columns: {
+  //     month: {
+  //       title: 'Month'
         
-      },
-      emi: {
-        title: 'Emi'
-      },
-      bike: {
-        title: 'Bike'
-      },
-      loan: {
-        title: 'Ed.Loan'
-      }
-      ,
-      mess: {
-        title: 'Mess'
-      },      
-      saving: {
-        title: 'Saving'
-      },
-      travelling: {
-        title: 'Travelling',
-        valuePrepareFunction : (value) => {
+  //     },
+  //     emi: {
+  //       title: 'Emi'
+  //     },
+  //     bike: {
+  //       title: 'Bike'
+  //     },
+  //     loan: {
+  //       title: 'Ed.Loan'
+  //     }
+  //     ,
+  //     mess: {
+  //       title: 'Mess'
+  //     },      
+  //     saving: {
+  //       title: 'Saving'
+  //     },
+  //     travelling: {
+  //       title: 'Travelling',
+  //       valuePrepareFunction : (value) => {
           
-          return value;
-        }
-      },
-      communication: {
-        title: 'Communication'
-      },
-      personal: {
-        title: 'Personal'
-      },
-      parents: {
-        title: 'Parents'
-      },      
-      status: {
-        title: 'Status'
-      },
-    }
-  };
+  //         return value;
+  //       }
+  //     },
+  //     communication: {
+  //       title: 'Communication'
+  //     },
+  //     personal: {
+  //       title: 'Personal'
+  //     },
+  //     parents: {
+  //       title: 'Parents'
+  //     },      
+  //     status: {
+  //       title: 'Status'
+  //     },
+  //   }
+  // };
   
-  data = [
-    {
-      month: "April - Rs.33808",
-      emi: "Rs.3500",
-      bike: "Rs.3000",
-      loan: "Rs.3000",
-      mess:"Rs.8000",      
-      saving:"Rs.6000" ,
-      travelling:"Rs.1000",
-      communication:"Rs.1500",
-      personal:"Rs.2000",
-      parents: "Rs.2500",
-      status : "+5300"
-    },
-    {
-      month: "May - Rs.",
-       emi: "Rs.3500",
-      bike: "Rs.3000",
-     loan: "Rs.3000",
-     mess:"Rs.8000",      
-      saving:"Rs.6000" ,
-      travelling:"Rs.1000",
-      communication:"Rs.1500",
-      personal:"Rs.2000",
-      parents: "Rs.25000",
-      status : "+-"
-    },{
-      month: "June - Rs.",
-      emi: "Rs.3500",
-      bike: "Rs.3000",
-     loan: "Rs.3000",
-     mess:"Rs.8000",      
-      saving:"Rs.6000" ,
-      travelling:"Rs.1000",
-      communication:"Rs.1500",
-      personal:"Rs.2000",
-      parents: "Rs.25000",
-      status : "+-"
-    },
-  ];
+  // data = [
+  //   {
+  //     month: "April - Rs.33808",
+  //     emi: "Rs.3500",
+  //     bike: "Rs.3000",
+  //     loan: "Rs.3000",
+  //     mess:"Rs.8000",      
+  //     saving:"Rs.6000" ,
+  //     travelling:"Rs.1000",
+  //     communication:"Rs.1500",
+  //     personal:"Rs.2000",
+  //     parents: "Rs.2500",
+  //     status : "+5300"
+  //   },
+  //   {
+  //     month: "May - Rs.",
+  //      emi: "Rs.3500",
+  //     bike: "Rs.3000",
+  //    loan: "Rs.3000",
+  //    mess:"Rs.8000",      
+  //     saving:"Rs.6000" ,
+  //     travelling:"Rs.1000",
+  //     communication:"Rs.1500",
+  //     personal:"Rs.2000",
+  //     parents: "Rs.25000",
+  //     status : "+-"
+  //   },{
+  //     month: "June - Rs.",
+  //     emi: "Rs.3500",
+  //     bike: "Rs.3000",
+  //    loan: "Rs.3000",
+  //    mess:"Rs.8000",      
+  //     saving:"Rs.6000" ,
+  //     travelling:"Rs.1000",
+  //     communication:"Rs.1500",
+  //     personal:"Rs.2000",
+  //     parents: "Rs.25000",
+  //     status : "+-"
+  //   },
+  // ];
 
      public goalCount ;
 

@@ -49,6 +49,7 @@ import { HospitalComponent } from './hospital/hospital.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(routes),
+
  
    
   ],
