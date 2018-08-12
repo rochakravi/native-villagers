@@ -53,7 +53,10 @@
       "config": "./karma.conf.js"
     }
   },
-  "defaults": {
+  "defaults": { 
+    "serve": {
+      "port": 3000
+    },
     "styleExt": "css",
     "component": {}
   }
